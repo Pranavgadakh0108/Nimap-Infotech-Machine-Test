@@ -17,7 +17,6 @@ Nimap Infotech - Machine Test Java
 | `POST`   | `/api/categories`        | Create a new category          |
 | `PUT`    | `/api/categories/{id}`   | Update category by ID          |
 | `DELETE` | `/api/categories/{id}`   | Delete category by ID          |
-|----------------------------------------------------------------------|
 
 # CRUD Operations for Product:
 ### **Product API**
@@ -28,9 +27,9 @@ Nimap Infotech - Machine Test Java
 | `POST`   | `/api/products`          | Create a new product           |
 | `PUT`    | `/api/products/{id}`     | Update product by ID           |
 | `DELETE` | `/api/products/{id}`     | Delete product by ID           |
-|----------------------------------------------------------------------|
+
 
 # Additional Requirements:
-Category-Product Relationship: One-to-many (One category can have multiple products).
-Server-side Pagination: Required for fetching categories and products.
-Single Product Response: Should include respective category details.
+1. Category-Product Relationship: One-to-many (One category can have multiple products).
+2. Server-side Pagination: Required for fetching categories and products.
+3. Single Product Response: Should include respective category details.
