@@ -9,18 +9,26 @@ Nimap Infotech - Machine Test Java
 5. Annotation-based configuration (No XML)
    
 # CRUD Operations for Category:
-GET /api/categories?page=3 → Fetch all categories (Paginated)
-POST /api/categories → Create a new category
-GET /api/categories/{id} → Fetch category by ID
-PUT /api/categories/{id} → Update category by ID
-DELETE /api/categories/{id} → Delete category by ID
+### **Category API**
+| Method   |       Endpoint           |        Description             |
+|----------|--------------------------|--------------------------------|
+| `GET`    | `/api/categories?page=3` | Get all categories (paginated) |
+| `GET`    | `/api/categories/{id}`   | Get category by ID             |
+| `POST`   | `/api/categories`        | Create a new category          |
+| `PUT`    | `/api/categories/{id}`   | Update category by ID          |
+| `DELETE` | `/api/categories/{id}`   | Delete category by ID          |
+|----------------------------------------------------------------------|
 
 # CRUD Operations for Product:
-GET /api/products?page=2 → Fetch all products (Paginated)
-POST /api/products → Create a new product
-GET /api/products/{id} → Fetch product by ID
-PUT /api/products/{id} → Update product by ID
-DELETE /api/products/{id} → Delete product by ID
+### **Product API**
+| Method   |       Endpoint           |        Description             |
+|----------|--------------------------|--------------------------------|
+| `GET`    | `/api/products?page=2`   | Get all products (paginated)   |
+| `GET`    | `/api/products/{id}`     | Get product by ID              |
+| `POST`   | `/api/products`          | Create a new product           |
+| `PUT`    | `/api/products/{id}`     | Update product by ID           |
+| `DELETE` | `/api/products/{id}`     | Delete product by ID           |
+|----------------------------------------------------------------------|
 
 # Additional Requirements:
 Category-Product Relationship: One-to-many (One category can have multiple products).
